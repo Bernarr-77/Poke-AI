@@ -16,7 +16,6 @@ const PerguntarIA = async (BestTime, game, apikey) => {
 
     let pergunta;
 
-    // --- ESTRUTURA LÓGICA CORRIGIDA ---
     if (game === 'Pixelmon') {
         pergunta = `
         Aja como um mestre em Pixelmon fluente em portugues e um especialista em ${game}.
@@ -139,7 +138,7 @@ const PerguntarIA = async (BestTime, game, apikey) => {
     }
 };
 
-// --- LÓGICA DO PLACEHOLDER CORRIGIDA ---
+
 GameOptions.addEventListener('change', function () {
     const selectedGame = GameOptions.value;
     if (selectedGame === 'Pixelmon') {
