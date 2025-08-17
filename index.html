@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente de Games</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Mestre Pokémon</h2>
+                <p>Pergunte sobre estratégias para Pokémon</p>
+
+                <form id="form">
+                    <input id="apikey" type="password" placeholder="Informe a API KEY Do Gemini">
+
+                    <div class="input-group">
+                        <select id="GameOptions">
+                            <option value="">Selecione um jogo</option>
+                            <option value="Pokemon Showdown">Pokémon Showdown</option>
+                            <option value="Pixelmon">Pixelmon</option>
+                            <option value="Pokemon TCG">Pokémon TCG</option>
+                        </select>
+                        <input id="BestTimeinput" type="text" placeholder="Ex: melhor time modo Dupla OU">
+                    </div>
+
+                    <button id="button">
+                        Perguntar
+                    </button>
+                </form>
+
+                <div id="AiResponse" class="hidden">
+                    <div class="Response-content"></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
