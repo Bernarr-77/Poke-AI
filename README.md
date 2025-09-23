@@ -10,4 +10,4 @@ Respostas Rápidas: Fornece respostas instantâneas para dúvidas comuns que nor
 
 Interface Amigável: Uma interface de chat simples e intuitiva para facilitar a interação.
 
-Para testar, baixe a extensão do vs code "Live Server" e aperte em "Go live"
+Para testar, baixe a extensão do vscode "Live Server" e aperte em "Go live"
